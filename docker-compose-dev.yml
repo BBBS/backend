@@ -9,7 +9,7 @@ web:
     - user
     - db
   environment:
-    NUMAPP_CERT: "false"
+    BACKEND_CERT: "false"
     SERVICE_PROTOCOL: "http"
 user:
   image: bbbs/backend:dev
@@ -19,7 +19,7 @@ user:
   links:
     - db
   environment:
-    NUMAPP_CERT: "false"
+    BACKEND_CERT: "false"
     SERVICE_PROTOCOL: "http"
 db:
   image: bbbs/backend:dev
@@ -29,7 +29,7 @@ db:
   links:
     - mongo
   environment:
-    NUMAPP_CERT: "false"
+    BACKEND_CERT: "false"
 mongo:
   image: mongo
   volumes:
