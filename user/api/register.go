@@ -5,8 +5,8 @@ import (
 
 	"github.com/ant0ine/go-json-rest/rest"
 
-	"github.com/pdxjohnny/numapp/user/register"
-	"github.com/pdxjohnny/numapp/variables"
+	"github.com/bbbs/backend/user/register"
+	"github.com/bbbs/backend/variables"
 )
 
 // PostRegister registers a new user

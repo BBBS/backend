@@ -1,5 +1,5 @@
 web:
-  image: pdxjohnny/numapp:dev
+  image: bbbs/backend:dev
   command: /app/run http
   ports:
     - "12345:8080"
@@ -12,7 +12,7 @@ web:
     NUMAPP_CERT: "false"
     SERVICE_PROTOCOL: "http"
 user:
-  image: pdxjohnny/numapp:dev
+  image: bbbs/backend:dev
   command: /app/run user
   expose:
     - "32345"
@@ -22,7 +22,7 @@ user:
     NUMAPP_CERT: "false"
     SERVICE_PROTOCOL: "http"
 db:
-  image: pdxjohnny/numapp:dev
+  image: bbbs/backend:dev
   command: /app/run db
   expose:
     - "42345"

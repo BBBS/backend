@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/pdxjohnny/numapp",
+	"ImportPath": "github.com/bbbs/backend",
 	"GoVersion": "go1.5",
 	"Packages": [
 		"./..."

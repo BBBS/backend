@@ -7,9 +7,9 @@ import (
 
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/pdxjohnny/numapp/api"
-	"github.com/pdxjohnny/numapp/api/recaptcha"
-	"github.com/pdxjohnny/numapp/variables"
+	"github.com/bbbs/backend/api"
+	"github.com/bbbs/backend/api/recaptcha"
+	"github.com/bbbs/backend/variables"
 )
 
 // Register takes a doc and attempts to create a new user

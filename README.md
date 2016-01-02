@@ -10,9 +10,11 @@ Building
 ---
 
 ```bash
-go build -o numapp_linux-amd64 -tags netgo *.go
+go build -o backend_linux-amd64 -tags netgo *.go
 # Or
 ./script/build
+# Or
+SKIP_BUILD=1 SKIP_IMAGE=1 ./script/build -osarch=linux/amd64
 ```
 > `-tags netgo` will help you achieve static binaries :)
 
@@ -20,8 +22,8 @@ Running
 ---
 
 ```bash
-./numapp_linux-amd64
-docker run --rm -ti pdxjohnny/numapp
+./backend_linux-amd64
+docker run --rm -ti bbbs/backend
 ```
 
 Changing The Name

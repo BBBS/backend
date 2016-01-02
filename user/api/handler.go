@@ -8,8 +8,8 @@ import (
 	"github.com/ant0ine/go-json-rest/rest"
 	"github.com/pdxjohnny/go-json-rest-middleware-jwt"
 
-	"github.com/pdxjohnny/numapp/user/login"
-	"github.com/pdxjohnny/numapp/variables"
+	"github.com/bbbs/backend/user/login"
+	"github.com/bbbs/backend/variables"
 )
 
 // CreateAuthMiddleware creates the middleware for authtication
@@ -20,7 +20,7 @@ func CreateAuthMiddleware() (*jwt.Middleware, error) {
 	}
 
 	authMiddleware := &jwt.Middleware{
-		Realm:            "numapp",
+		Realm:            "backend",
 		SigningAlgorithm: variables.SigningAlgorithm,
 		Key:              variables.TokenSignKey,
 		VerifyKey:        &variables.TokenSignKey.PublicKey,

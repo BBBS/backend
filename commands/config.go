@@ -79,6 +79,6 @@ func ConfigBindFlags(cmd *cobra.Command) {
 }
 
 func ConfigEnv() {
-	viper.SetEnvPrefix("numapp")
+	viper.SetEnvPrefix("backend")
 	viper.AutomaticEnv()
 }

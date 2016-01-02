@@ -3,11 +3,11 @@ package commands
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/pdxjohnny/numapp/db"
-	"github.com/pdxjohnny/numapp/db/get"
-	"github.com/pdxjohnny/numapp/db/save"
-	"github.com/pdxjohnny/numapp/http"
-	"github.com/pdxjohnny/numapp/user"
+	"github.com/bbbs/backend/db"
+	"github.com/bbbs/backend/db/get"
+	"github.com/bbbs/backend/db/save"
+	"github.com/bbbs/backend/http"
+	"github.com/bbbs/backend/user"
 )
 
 // Commands

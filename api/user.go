@@ -3,7 +3,7 @@ package api
 import (
 	"strings"
 
-	"github.com/pdxjohnny/numapp/variables"
+	"github.com/bbbs/backend/variables"
 )
 
 // LoginUser logs in a user

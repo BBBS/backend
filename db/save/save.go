@@ -4,8 +4,8 @@ import (
 	"errors"
 	"log"
 
-	"github.com/pdxjohnny/numapp/db/shared"
-	"github.com/pdxjohnny/numapp/variables"
+	"github.com/bbbs/backend/db/shared"
+	"github.com/bbbs/backend/variables"
 	"gopkg.in/mgo.v2/bson"
 )
 

@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/ant0ine/go-json-rest/rest/test"
-	"github.com/pdxjohnny/numapp/variables"
+	"github.com/bbbs/backend/variables"
 )
 
 func TestMain(m *testing.M) {

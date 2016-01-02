@@ -6,8 +6,8 @@ import (
 
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/pdxjohnny/numapp/api"
-	"github.com/pdxjohnny/numapp/variables"
+	"github.com/bbbs/backend/api"
+	"github.com/bbbs/backend/variables"
 )
 
 // Login checks a users password for a match an returns a token if it is

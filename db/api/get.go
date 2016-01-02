@@ -6,8 +6,8 @@ import (
 
 	"github.com/ant0ine/go-json-rest/rest"
 
-	"github.com/pdxjohnny/numapp/db/get"
-	"github.com/pdxjohnny/numapp/variables"
+	"github.com/bbbs/backend/db/get"
+	"github.com/bbbs/backend/variables"
 )
 
 // GetDoc uses get to retrive a document

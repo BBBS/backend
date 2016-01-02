@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	customhttp "github.com/pdxjohnny/numapp/http"
-	"github.com/pdxjohnny/numapp/user/api"
+	customhttp "github.com/bbbs/backend/http"
+	"github.com/bbbs/backend/user/api"
 	"github.com/spf13/viper"
 )
 

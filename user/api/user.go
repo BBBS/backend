@@ -6,8 +6,8 @@ import (
 
 	"github.com/ant0ine/go-json-rest/rest"
 
-	"github.com/pdxjohnny/numapp/api"
-	"github.com/pdxjohnny/numapp/variables"
+	"github.com/bbbs/backend/api"
+	"github.com/bbbs/backend/variables"
 )
 
 // GetUser returns the user for an id

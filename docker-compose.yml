@@ -1,5 +1,5 @@
 web:
-  image: pdxjohnny/numapp
+  image: bbbs/backend
   command: /app/run http
   ports:
     - "12345:8080"
@@ -9,14 +9,14 @@ web:
     - user
     - db
 user:
-  image: pdxjohnny/numapp
+  image: bbbs/backend
   command: /app/run user
   ports:
     - "32345"
   links:
     - db
 db:
-  image: pdxjohnny/numapp
+  image: bbbs/backend
   command: /app/run db
   expose:
     - "42345"

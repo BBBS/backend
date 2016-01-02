@@ -3,7 +3,7 @@ package shared
 import (
 	"log"
 
-	"github.com/pdxjohnny/numapp/variables"
+	"github.com/bbbs/backend/variables"
 
 	"gopkg.in/mgo.v2"
 )

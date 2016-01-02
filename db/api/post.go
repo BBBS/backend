@@ -7,8 +7,8 @@ import (
 
 	"github.com/ant0ine/go-json-rest/rest"
 
-	"github.com/pdxjohnny/numapp/db/save"
-	"github.com/pdxjohnny/numapp/variables"
+	"github.com/bbbs/backend/db/save"
+	"github.com/bbbs/backend/variables"
 )
 
 // PostDoc uses save to save a document
